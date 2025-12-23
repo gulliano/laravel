@@ -1,0 +1,7 @@
+{
+  "buildCommand": "npm install && npm run build && composer install",
+  "startCommand": "php artisan migrate --force && php-fpm",
+  "environmentVariables": {
+    "NIXPACKS_PHP_VERSION": "8.3"
+  }
+}
